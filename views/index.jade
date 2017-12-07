@@ -1,0 +1,17 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='UTF-8')
+        title Cities
+    body
+        h1 Cities
+        form#myForm
+            legend Add New City
+            input#name(type='text', name='name', placeholder='City Name')
+            br
+            textarea#desc(name='desc', placeholder='Description')
+            br
+            button(type='submit') Submit
+        ul.city-list
+        script(src='jquery.js')
+        script(src='client.js')

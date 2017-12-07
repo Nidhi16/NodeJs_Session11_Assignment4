@@ -1,0 +1,24 @@
+{
+  "name": "building-blocks",
+  "version": "1.0.0",
+  "description": "This is acadgild assignment for testing get, post and delete requests in express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nidhi16/NodeJs_Session11_Assignment4.git"
+  },
+  "author": "Nidhi Sinha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nidhi16/NodeJs_Session11_Assignment4/issues"
+  },
+  "homepage": "https://github.com/Nidhi16/NodeJs_Session11_Assignment4#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jade": "^1.11.0"
+  }
+}
